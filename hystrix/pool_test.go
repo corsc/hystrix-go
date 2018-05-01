@@ -1,10 +1,9 @@
 package hystrix
 
 import (
+	"sync/atomic"
 	"testing"
 	"time"
-
-	"sync/atomic"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -8,7 +8,6 @@ import (
 	"time"
 
 	"github.com/myteksi/hystrix-go/hystrix/metric_collector"
-	"github.com/rcrowley/go-metrics"
 )
 
 var makeTimerFunc = func() interface{} { return metrics.NewTimer() }

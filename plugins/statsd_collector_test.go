@@ -1,9 +1,8 @@
 package plugins
 
 import (
-	"testing"
-
 	"sync/atomic"
+	"testing"
 
 	"github.com/myteksi/hystrix-go/plugins/mocks"
 	. "github.com/smartystreets/goconvey/convey"
